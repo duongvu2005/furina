@@ -6,7 +6,7 @@ import asyncio
 import time
  
 from utils import parse_item_extra_attributes, format_coins
-from strategies import STRATEGIES
+from .strategies import STRATEGIES
 from db import (
     get_guild_config,
     set_ah_channel,

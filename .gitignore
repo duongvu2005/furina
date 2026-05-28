@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Database (contains guild/channel IDs)
+bot.db
+bot.db-journal
+bot.db-wal
+bot.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
